@@ -6,6 +6,8 @@ header{
   background: linear-gradient(120deg,#12223c,#B9BCC1);
   margin:0;
   padding:15px;
+  width:100%;
+  box-sizing: border-box
 }
 .gambar{
     float: left;
@@ -14,15 +16,16 @@ header{
 }
 h2{
     clear: left;
-    padding-left:220px;
+    padding-left:15px;
     margin-top:30px;
     color: white;
 }
 pre{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top:15px;
-    padding-left:220px;
+    padding-left:15px;
     color: white;
+   white-space: pre-wrap;
 }
 .nama-penerbit{
    color: white
@@ -65,15 +68,15 @@ audio::-webkit-media-controls-timeline{
 }
 .about{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font:60PX;
+    font:24PX;
     font-weight:600px;
-    padding-left: 350px;
+    padding-left: 15px;
     color:white;
 }
 .Bio{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
-   padding-left: 220px;
+   padding-left: 15px;
 }
 .features{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
